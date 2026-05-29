@@ -6,20 +6,21 @@ on:
       - 'v*'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: texlive/texlive:latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Compile LaTeX (English slides)
-        uses: xu-cheng/texlive-action@v1
-        with:
-          scheme: full
-          run: |
-            latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+        run: latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
