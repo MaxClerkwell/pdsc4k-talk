@@ -1,0 +1,37 @@
+{
+  "title": "Everything, Everywhere, All at Once: Keynote on Automated Data Collection (PDSC4k 2026)",
+  "description": "<p>Keynote slides on automated data collection, held at the Practical Data Science Conference (PDSC4k) in 2026.</p><p>The talk walks through the full path from the measurement in the field to the analysed result in four zones, with one owner per box: acquisition at the edge, transport, storage, and analysis. The slide deck is available in English and German.</p>",
+  "upload_type": "presentation",
+  "creators": [
+    {
+      "name": "Bökelmann, Stephan",
+      "orcid": "0000-0002-2119-0064",
+      "affiliation": "nabla B Ingenieurbüro und Dienstleistungs-UG (haftungsbeschränkt), Bochum, Germany"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "data acquisition",
+    "automated data collection",
+    "edge computing",
+    "measurement systems",
+    "data pipeline",
+    "practical data science",
+    "PDSC4k",
+    "keynote"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MaxClerkwell/pdsc4k-talk",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://data-science.ruhr/speaker/stephan-boekelmann/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}
